@@ -1,0 +1,62 @@
+# Python environments
+venv/
+uplift_env/
+.venv/
+env/
+.env/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.aws/
+.pypirc
+.ssh/
+.streamlit/secrets.toml
+secrets.toml
+*.pem
+*.key
+*.p12
+*.pfx
+*.ppk
+id_rsa*
+id_ed25519*
+credentials*.json
+service-account*.json
+*service_account*.json
+*.pgpass
+pgpass.conf
+database.ini
+*.sqlite
+*.sqlite3
+*.db
+
+# Python and tooling caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Jupyter runtime files
+.ipynb_checkpoints/
+
+# Local data and data-derived artifacts. Obtain datasets under their terms and
+# generate processed data/models locally; do not redistribute without review.
+data/raw/*.csv
+data/processed/*.csv
+models/*.pkl
+reports/uplift_test_predictions.csv
+
+# Editor, OS, and log files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
