@@ -1,3 +1,0 @@
-treatment_group,control_group,test_rows,treated_rows,control_rows,qini,auuc
-Mens E-Mail,No E-Mail,10654,5327,5327,0.02454060164101082,0.5239997536431316
-Womens E-Mail,No E-Mail,10673,5346,5327,0.0732584694249871,0.5743842784203733

@@ -52,6 +52,9 @@ dist/
 data/raw/*.csv
 data/processed/*.csv
 models/*.pkl
+reports/shap_feature_importance.png
+reports/uplift_evaluation_curves.png
+reports/uplift_model_metrics.csv
 reports/uplift_test_predictions.csv
 
 # Editor, OS, and log files
